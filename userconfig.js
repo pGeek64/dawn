@@ -6,7 +6,7 @@ const CONFIG = new Config({
   },
   overrideStorage: true, // override localStorage with fixed userconfig values
   temperature: {
-    location: 'Matão, São Paulo',
+    location: 'Kolkata, India',
     scale: 'C'
   },
   clock: {
@@ -26,12 +26,76 @@ const CONFIG = new Config({
     "t": 'todo-list',
     "s": 'search-bar'
   },
-  disabled: [],
+  disabled: ['todo-list','crypto-rate'],
   openLastVisitedTab: false,
   tabs: [
     {
+      name: 'work',
+      background_url: 'src/img/banners/bg-4.gif',
+      categories: [
+        {
+          name: 'quick access',
+          links: [
+            {                                                                                                                                                                                               
+              url: 'https://web.whatsapp.com/',
+              icon: 'brand-whatsapp',
+              icon_color: '#25d366'
+            },
+            {
+              url: 'https://youtu.be/',
+              icon: 'brand-youtube',
+              icon_color: 'red'
+            },
+            {
+              url: 'https://reddit.com',
+              icon: 'brand-reddit',
+              icon_color: '#ff5700'
+            },
+            {
+              url: 'https://drive.google.com',
+              icon: 'brand-google-drive',
+              icon_color: '#4285f4'
+            },
+            {
+              url: 'https://github.com',
+              icon: 'brand-github',
+              icon_color: '#545464'
+            },
+            {
+              url: 'https://discord.gg',
+              icon: 'brand-discord',
+              icon_color: '#5865f2'
+            },
+          ]
+        },
+        {
+          name: 'work links',
+          links: [
+            {
+              name: 'linkedin',
+              url: 'https://www.linkedin.com/in/pronay-dutta-2a6304213/',
+              icon: 'brand-linkedin',
+              icon_color: '#0A66C2'
+            },
+            {
+              name: 'mail',
+              url: 'https://proton.me/mail',
+              icon: 'mail',
+              icon_color: '#6d4aff'
+            },
+            {
+              name: 'Gmail',
+              url: 'https://mail.google.com',
+              icon: 'mail',
+              icon_color: '#b22222'
+            }
+          ]
+        }
+      ]
+    },
+    {
       name: 'boards',
-      background_url: 'src/img/banners/bg-1.gif',
+      background_url: 'src/img/banners/bg-2.gif',
       categories: [{
         name: 'fun',
         links: [
@@ -44,6 +108,16 @@ const CONFIG = new Config({
             url: 'https://4chan.org/out',
             icon: 'leaf',
             icon_color: '#64876d'
+          },
+          {
+            url: 'https://4chan.org/s4s/',
+            name: '/s4s/',
+            icon: 'mood-confuzed',
+            icon_color: 'yellow'
+          },
+          {
+            name: '/wg/',
+            url: 'https://4chan.org/wg/',
           },
           {
             name: '/lit/',
@@ -85,7 +159,7 @@ const CONFIG = new Config({
           },
           {
             name: '/Δ/',
-            url: 'https://archive.arisuchan.jp/%CE%94/catalog.html'
+            url: 'https://legacy.arisuchan.jp/%CE%94/catalog.html'
           },
           {
             name: '/λ/',
@@ -106,7 +180,7 @@ const CONFIG = new Config({
     },
     {
       name: 'music',
-      background_url: 'src/img/banners/bg-2.gif',
+      background_url: 'src/img/banners/bg-1.gif',
       categories: [
         {
           name: 'music services',
@@ -120,6 +194,11 @@ const CONFIG = new Config({
               url: 'https://youtu.be/',
               icon: 'brand-youtube',
               icon_color: '#996767'
+            },
+            {
+              url: 'https://open.spotify.com/',
+              icon: 'brand-spotify',
+              icon_color: '#1ED760'
             },
             {
               url: 'https://r-a-d.io/',
@@ -159,7 +238,7 @@ const CONFIG = new Config({
               url: 'https://www.reddit.com/r/unixporn/'
             },
             {
-              name: 'r/mechkbds/',
+              name: 'r/mechkbds',
               url: 'https://www.reddit.com/r/MechanicalKeyboards/',
               icon: 'keyboard',
               icon_color: '#a57685'
@@ -197,9 +276,9 @@ const CONFIG = new Config({
               icon: 'mailbox'
             },
             {
-              name: 'rust docs',
-              url: 'https://doc.rust-lang.org/book/',
-              icon: 'notebook',
+              name: 'linux docs',
+              url: 'https://linux.die.net/',
+              icon: 'prompt',
               icon_color: '#977a3a'
             }
           ]
