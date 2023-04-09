@@ -78,7 +78,7 @@ const CONFIG = new Config({
               icon_color: '#0A66C2'
             },
             {
-              name: 'mail',
+              name: 'Pmail',
               url: 'https://proton.me/mail',
               icon: 'mail',
               icon_color: '#6d4aff'
