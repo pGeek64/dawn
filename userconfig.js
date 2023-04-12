@@ -67,7 +67,7 @@ const CONFIG = new Config({
               icon_color: '#5865f2'
             },
             {
-              url: 'https://discord.gg',
+              url: 'https://twitter.com',
               icon: 'brand-twitter',
               icon_color: '#1DA1F2'
             },
