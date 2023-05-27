@@ -62,7 +62,7 @@ const CONFIG = new Config({
               icon_color: '#545464'
             },
             {
-              url: 'https://discord.gg',
+              url: 'https://discord.com/app',
               icon: 'brand-discord',
               icon_color: '#5865f2'
             },
@@ -70,6 +70,11 @@ const CONFIG = new Config({
               url: 'https://twitter.com',
               icon: 'brand-twitter',
               icon_color: '#1DA1F2'
+            },
+            {
+              url: 'https://web.telegram.org',
+              icon: 'brand-telegram',
+              icon_color: '#0088cc'
             },
           ]
         },
