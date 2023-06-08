@@ -102,7 +102,7 @@ const CONFIG = new Config({
             {
               name: 'Classroom',
               url: 'https://classroom.google.com',
-              icon: 'graduation-cap',
+              icon: 'school',
               icon_color: '#25a667'
             }
           ]
