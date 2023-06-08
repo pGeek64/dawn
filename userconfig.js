@@ -98,6 +98,12 @@ const CONFIG = new Config({
               url: 'https://mail.google.com',
               icon: 'mail',
               icon_color: '#b22222'
+            },
+            {
+              name: 'Classroom',
+              url: 'https://classroom.google.com',
+              icon: 'graduation-cap',
+              icon_color: '#25a667'
             }
           ]
         }
