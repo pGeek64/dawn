@@ -83,7 +83,7 @@ const CONFIG = new Config({
           links: [
             {
               name: 'linkedin',
-              url: 'https://www.linkedin.com/in/pronay-dutta-2a6304213/',
+              url: 'https://www.linkedin.com/',
               icon: 'brand-linkedin',
               icon_color: '#0A66C2'
             },
