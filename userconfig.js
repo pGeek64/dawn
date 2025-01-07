@@ -82,7 +82,7 @@ const CONFIG = new Config({
           name: 'work links',
           links: [
             {
-              name: 'linkedin',
+              name: 'Linkedin',
               url: 'https://www.linkedin.com/',
               icon: 'brand-linkedin',
               icon_color: '#0A66C2'
@@ -100,10 +100,10 @@ const CONFIG = new Config({
               icon_color: '#b22222'
             },
             {
-              name: 'Classroom',
-              url: 'https://classroom.google.com',
-              icon: 'school',
-              icon_color: '#25a667'
+              name: 'ChatGPT',
+              url: 'https://chatgpt.com/',
+              icon: 'brand-loom',
+              icon_color: '#16BF7D'
             }
           ]
         }
